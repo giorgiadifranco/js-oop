@@ -16,7 +16,7 @@ class Veicolo {
         this.porte = porte
     }
 
-    getFullName(){
+    getInformation(){
         return this.marca + ' ' + this.anno+ ' '+this.colore+' '+this.porte
     }
 
@@ -28,6 +28,6 @@ class Veicolo {
 const panda = new Veicolo ('fiat', 2019, 'blu', 3);
 
 
-console.log(panda.getFullName());
+console.log(panda.getInformation());
 
 console.log(panda.calculateAge());
