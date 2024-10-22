@@ -31,3 +31,15 @@ const panda = new Veicolo ('fiat', 2019, 'blu', 3);
 console.log(panda.getInformation());
 
 console.log(panda.calculateAge());
+
+
+//BONUS estendere la classe "Veicolo" con una nuova classe chiamata "Automobile"
+
+class Automobile extends Veicolo{
+
+    
+    
+
+    
+}
+
