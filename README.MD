@@ -21,7 +21,9 @@ La classe "Veicolo" dovrebbe avere le seguenti caratteristiche:
 
 ## BONUS
 
-In questo bonus, dovrai estendere la classe "Veicolo" con una nuova classe chiamata "Automobile". La classe "Automobile" eredita tutte le proprietà e i metodi della classe "Veicolo" e ne aggiunge alcuni specifici per le automobili.
+In questo bonus, dovrai estendere la classe "Veicolo" con una nuova classe chiamata "Automobile". 
+
+>La classe "Automobile" eredita tutte le proprietà e i metodi della classe "Veicolo" e ne --> aggiunge alcuni specifici per le automobili.
 
 ## Successivamente:
 Istanziamo una nuova Automobile (Opel, 2020, nera, con 4 porte, a benzina)

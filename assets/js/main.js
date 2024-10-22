@@ -8,16 +8,18 @@ class Veicolo {
     anno;
     colore;
     porte;
+    carburante;
 
-    constructor (marca, anno, colore, porte = automobile){
+    constructor (marca, anno, colore, porte, carburante = 'veicolo'){
         this.marca = marca
         this.anno = anno
         this.colore = colore
         this.porte = porte
+        this.carburante = carburante 
     }
 
     getInformation(){
-        return this.marca + ' ' + this.anno+ ' '+this.colore+' '+this.porte
+        return this.marca + ' ' + this.anno+ ' '+this.colore+' '+this.porte+ ' '+this.carburante
     }
 
     calculateAge(){
@@ -37,7 +39,7 @@ console.log(panda.calculateAge());
 
 class Automobile extends Veicolo{
 
-    
+
     
 
     
